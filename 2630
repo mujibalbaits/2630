@@ -1,0 +1,26 @@
+﻿using system;
+using system.colection.generic;
+using system.ling;
+using system.threding.tasks;
+
+namespace responsipemograman2630
+{ 
+    
+    
+    class progam
+    {
+     
+            static void main(string[] args)
+        {
+            console.writeline("NIK/nama karyawan         gaji");
+            console.writeline("==================");
+            karyawan karyawan1 = new karyawan("3462873872", "vio", 3000000);
+            karyawan1.getdata();
+
+            karyawan karyawan2 = new karyawan("3499985322", "tika", 3500000);
+            karyawan2.getdata();
+
+            console.readkey();
+        }
+    }
+}
